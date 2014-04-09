@@ -137,7 +137,7 @@ AND password = '".$_POST['password']."'";
 		<div id="container">
 			<div id="login">
               <?php if (isset($_SESSION['auth'])) : ?>
-              	<div style="right"><a href="logout.php">Logged In</a></div>
+              	<div style="right"><a href="logout.php">Logged In - Click to logout</a></div>
               <?php else : ?>
 				<div class="login-button">member login <span style="font-size: 8pt">&#9660</span></div>
 			  <?php endif; ?>	
