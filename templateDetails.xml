@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+        <name>VAST</name>
+        <creationDate>2014-03-01</creationDate>
+        <author>Mark VanderClay</author>
+        <authorEmail>mvand010@odu.edu</authorEmail>
+        <authorUrl></authorUrl>
+        <copyright></copyright>
+        <license>GNU/GPL</license>
+        <version>3.2.3</version>
+        <description>VAST Template</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+				<folder>libraries</folder>
+        </files>
+        <positions>
+                <position>breadcrumb</position>
+                <position>left</position>
+                <position>right</position>
+                <position>top</position>
+                <position>user1</position>
+                <position>user2</position>
+                <position>user3</position>
+                <position>user4</position>
+                <position>footer</position>
+        </positions>
+</extension>
