@@ -3,7 +3,9 @@
 //defined( '_JEXEC' ) or die( 'Restricted access' );
 
 require_once('connect.php'); ///Ensures connection to the database
-
+  
+  
+  
 //Gather information from the database
 $sql="SELECT * FROM user where ID='1' ORDER BY ID DESC";
 $result=mysql_query($sql);
